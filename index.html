@@ -10,6 +10,20 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+
+	<!-- ******************Popup parts start *************** -->
+  <div id="popupmain" style="display: none;">
+  <div id="popup">
+    <h3 id="mail">BOOK A FREE CALL WITH OUR TEAM</h3>
+    <input type="email" name="" id="emailid" placeholder="user@email.com">
+    <button class="submitId">SUBMIT</button><br>
+    <button class="submitId">NO THANKS</button>
+  </div>
+</div>
+
+<!-- ******************Popup parts End *************** -->
+
+<!-- ******************header parts start *************** -->
 	<div class="header" id="topheader">
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 			<div class="container text-uppercase p-2">
@@ -139,6 +153,23 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/ext-core/3.1.0/ext-core.js"></script>
+  <script>
+    var preloader = document.getElementById("loading");
+             function myfunction(){
+                  preloader.style.display = 'none'
+             };
+             
+$(document).ready(function(){
+  setTimeout(function(){
+    $('#popupmain').css('display','block'); }, 5000);
+});
+
+$('.submitId').click(function(){
+  $('#popupmain').css('display','none');
+});
+
+  </script>
 		
 </body>
 </html>
