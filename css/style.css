@@ -6,7 +6,7 @@
 .header{
 	width: 100%;
 	height: auto;
-	background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url('../image/pc4.jpg');
+	background-image:url('../image/pc4.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	clip-path: polygon(100% 0%,100% 100%,100% 100%,0% 100%,0% 0%);
