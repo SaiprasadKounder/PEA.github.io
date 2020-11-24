@@ -1,0 +1,410 @@
+*{ margin: 0; padding: 0;
+	font-family: 'Poppins', sans-serif;}
+
+	/************************actual css start***********************/
+
+.header{
+	width: 100%;
+	height: auto;
+	background-image:url('../image/pc4.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	clip-path: polygon(100% 0%,100% 100%,100% 100%,0% 100%,0% 0%);
+	position: relative;
+}
+
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: .3;
+	z-index: -1;
+	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.navbar:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: .3;
+	z-index: -1;
+	background: linear-gradient(to right, #020024 0%, #606060 35%, #606060 100%);
+}
+
+.nav-item a{
+	color: #fff!important;
+	font-weight: bold;
+}
+
+.header-section{
+	width: 100%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.header-buttons a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	background-color: #E43B2C;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+
+.header-buttons a:hover{
+	color: #50d1c0;
+	background: ;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.center-div p{
+	font-size: 1.3rem;
+	padding: 10px 0 20px 0;
+	color: white;
+}
+
+/****************** extra header div css starts**************/
+
+.header-extradiv{
+	width: 100%; 
+	height: auto;
+	margin: 100px 0;
+	text-align: center;
+}
+
+.extra-div{
+	background: #fff;
+	border: medium none;
+	padding: 50px!important;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+
+.extra-div:hover{
+	box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+}
+
+/******************extra header div css end**************/
+
+/*****************bookcall css starts*************/
+
+.bookcall{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 5%;
+	background-color: #606060;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	clip-path: polygon(100% 0%,100% 100%,100% 100%,0% 100%,0% 0%);
+}
+.bookcall:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	opacity: .3;
+	z-index: -1;
+	background-color: #606060;
+}
+
+.serviceffers h3{
+	width: 100%;
+	height: inherit;
+	margin-bottom: 5%;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.serviceffers h1{
+	width: 700;
+	font-size: 66px;
+	height: inherit;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.header-buttons1 a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin-top: 40px;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	background-color: #E43B2C;
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+
+.header-buttons1 a:hover{
+	color: #50d1c0;
+	background: #E43B2C;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+/*****************bookcall css ends*************/
+
+/****************** About us Start******************/
+
+.about{
+	width:100%;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.section{
+	width: 90%;
+	display: block;
+	margin:80px auto;
+}
+
+.content{
+	text-align: justify;
+}
+
+.image-section{
+	width: 100%;
+}
+
+.image-section img{
+	max-width: 100%;
+	height: auto;
+}
+
+.content .title h2{
+	color: #1c1c1c;
+	font-weight: 800;
+}
+
+.content .title h3{
+	padding: 15px;
+	color: #8e8e8e;
+	font-weight: 800;
+}
+
+.content p{
+	padding-top: 15px;
+	color: #1e1e1e;
+	font-size: 20px;
+	text-align: left;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+
+
+
+/****************** About us End******************/
+
+/*****************foter css start *************/
+
+.footersection{
+	width: 100%;
+	height:auto;
+	padding: 10px 0 10px 0;
+	background: #606060;
+	position: relative;
+}
+
+.footersection h5{
+	color: #fff;
+	text-align: center;
+}
+
+.footersection li a{
+	font-size: 0.9rem;
+	text-align: center;
+	line-height: 1.6;
+	font-weight: 400;
+	align-items: center;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.pts{
+	list-style: none;
+	display: flex;
+	padding: 0px 0px;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+
+/*****************foter css ends*************/
+
+/**********media queries***********/
+
+@media only screen and (min-width:320px){
+
+
+	.header{
+		width: 100%;
+		height: 75vh;
+		margin-bottom: -10px;
+	}
+
+	.header-buttons a{
+		width: 100%;
+	}
+
+	.nav-item{
+		text-align: center;
+	}
+
+	.header-extradiv{
+		width: 100%;
+	}
+
+	.bookcall{
+		width: 100%;
+		height:75vh;
+	}
+
+	.about{
+		width: 100%;
+	}
+
+	.footersection{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-width:768px){
+
+	.header{
+		width: 100%;
+		clip-path: polygon(100% 0%,100% 75%,50% 100%,0% 75%,0% 0%);
+	}
+
+	.nav-item{
+		text-align: center;
+	}
+
+	.header-extradiv{
+		width: 100%;
+	}
+
+	.bookcall{
+		width: 100%;
+		height:60vh;
+		clip-path: polygon(100% 0%,100% 75%,50% 100%,0% 75%,0% 0%);
+		
+	}
+
+	.about{
+		width: 100%;
+		height: auto;
+		padding-bottom: 70px;
+	}
+
+	.left-section{
+		width: 60%;
+		float: left;
+		padding-right: 50px;
+    }
+
+    .image-section{
+		float: right;
+		width: 30%
+	}
+
+	.image-section img{
+		max-width: 100%;
+	    height: auto;
+	    vertical-align: middle;
+	    text-align: center;
+	}
+
+	.image-section h3{
+		text-align: right;
+	}
+
+	.image-section h5{
+		text-align: right;
+	}
+
+	.footersection{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width:1024px){
+
+	.header{
+		width: 100%;
+		clip-path: polygon(100% 0%,100% 75%,50% 100%,0% 75%,0% 0%);
+	}
+
+	.nav-item{
+		text-align: center;
+	}
+
+	.header-extradiv{
+		width: 100%;
+	}
+
+	.bookcall{
+		width: 100%;
+		height:60vh;
+		clip-path: polygon(100% 0%,100% 75%,50% 100%,0% 75%,0% 0%);
+	}
+
+	.about{
+		width: 100%;
+	}
+
+	.image-section{
+		float: right;
+		width: 30%
+	}
+
+	.image-section img{
+		max-width: 100%;
+	    height: auto;
+	    vertical-align: middle;
+	    text-align: center;
+	}
+
+	.footersection{
+		width: 100%;
+	}
+
+}
